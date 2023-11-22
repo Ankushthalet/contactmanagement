@@ -1,0 +1,54 @@
+2023-11-22 05:28:57.400  INFO 9948 --- [restartedMain] c.smart.SmartcontactmanagerApplication   : Starting SmartcontactmanagerApplication using Java 17.0.7 on RaiSingh with PID 9948 (C:\Users\ankus\OneDrive\Desktop\smartcontactmanager\target\classes started by ankus in C:\Users\ankus\OneDrive\Desktop\smartcontactmanager)
+2023-11-22 05:28:57.405  INFO 9948 --- [restartedMain] c.smart.SmartcontactmanagerApplication   : No active profile set, falling back to default profiles: default
+2023-11-22 05:28:57.486  INFO 9948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-22 05:28:57.487  INFO 9948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-22 05:28:59.061  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-22 05:28:59.142  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2023-11-22 05:28:59.984  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8484 (http)
+2023-11-22 05:28:59.998  INFO 9948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-22 05:28:59.999  INFO 9948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-11-22 05:29:00.125  INFO 9948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-22 05:29:00.125  INFO 9948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2637 ms
+2023-11-22 05:29:00.472  INFO 9948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-22 05:29:00.553  INFO 9948 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2023-11-22 05:29:00.799  INFO 9948 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-22 05:29:00.955  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-22 05:29:01.169  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-22 05:29:01.193  INFO 9948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-11-22 05:29:02.293  INFO 9948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-22 05:29:02.303  INFO 9948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-22 05:29:02.372  WARN 9948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-22 05:29:03.260  INFO 9948 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e82a9f6, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d9a5851, org.springframework.security.web.header.HeaderWriterFilter@5afbd858, org.springframework.security.web.authentication.logout.LogoutFilter@408b6484, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6eb32a31, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e5ae7ca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a487997, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f18596, org.springframework.security.web.session.SessionManagementFilter@293ba2f6, org.springframework.security.web.access.ExceptionTranslationFilter@143e411a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1baae3bb]
+2023-11-22 05:29:04.064  INFO 9948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-22 05:29:04.071  INFO 9948 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-11-22 05:29:04.167  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (http) with context path ''
+2023-11-22 05:29:04.185  INFO 9948 --- [restartedMain] c.smart.SmartcontactmanagerApplication   : Started SmartcontactmanagerApplication in 7.459 seconds (JVM running for 8.743)
+2023-11-22 05:29:04.966  INFO 9948 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-22 05:29:04.966  INFO 9948 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-22 05:29:04.968  INFO 9948 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-11-22 07:03:18.871  WARN 9948 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m46s752ms441µs700ns).
+2023-11-22 08:03:07.940  INFO 9948 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-22 08:03:07.945  INFO 9948 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-22 08:03:07.946  INFO 9948 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-22 08:03:08.042  INFO 9948 --- [restartedMain] c.smart.SmartcontactmanagerApplication   : Starting SmartcontactmanagerApplication using Java 17.0.7 on RaiSingh with PID 9948 (C:\Users\ankus\OneDrive\Desktop\smartcontactmanager\target\classes started by ankus in C:\Users\ankus\OneDrive\Desktop\smartcontactmanager)
+2023-11-22 08:03:08.042  INFO 9948 --- [restartedMain] c.smart.SmartcontactmanagerApplication   : No active profile set, falling back to default profiles: default
+2023-11-22 08:03:08.497  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-22 08:03:08.510  INFO 9948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2023-11-22 08:03:08.639  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8484 (http)
+2023-11-22 08:03:08.640  INFO 9948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-22 08:03:08.640  INFO 9948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2023-11-22 08:03:08.714  INFO 9948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-22 08:03:08.714  INFO 9948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 670 ms
+2023-11-22 08:03:08.778  INFO 9948 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-22 08:03:08.783  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-11-22 08:03:08.786  INFO 9948 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-11-22 08:03:08.787  INFO 9948 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-11-22 08:03:08.869  INFO 9948 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-22 08:03:08.869  INFO 9948 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-22 08:03:08.885  WARN 9948 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-22 08:03:09.006  INFO 9948 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@690edef1, org.springframework.security.web.context.SecurityContextPersistenceFilter@58b1b9c8, org.springframework.security.web.header.HeaderWriterFilter@60eb3953, org.springframework.security.web.authentication.logout.LogoutFilter@11738273, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7adf10b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d8fbe58, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@417391b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22d19fc1, org.springframework.security.web.session.SessionManagementFilter@6b15636b, org.springframework.security.web.access.ExceptionTranslationFilter@6ba1cf41, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27a22016]
+2023-11-22 08:03:09.187  INFO 9948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-22 08:03:09.190  INFO 9948 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-11-22 08:03:09.207  INFO 9948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8484 (http) with context path ''
+2023-11-22 08:03:09.213  INFO 9948 --- [restartedMain] c.smart.SmartcontactmanagerApplication   : Started SmartcontactmanagerApplication in 1.209 seconds (JVM running for 9253.771)
+2023-11-22 08:03:09.216  INFO 9948 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

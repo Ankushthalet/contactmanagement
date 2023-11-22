@@ -1,0 +1,45 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always    
+
+#
+#spring:
+#  datasource:
+#    hikari:
+#      driver-class-name: com.mysql.cj.jdbc.Driver
+#      password: Ankush@123
+#      jdbc-url: jdbc:mysql://localhost/xenon?serverTimezone=UTC
+#      username: root
+#      
+#  jpa:
+#    hibernate:
+#      ddl-auto: create
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5Dialect
+#    show-sql: true    
+    
+  boot:
+    admin:
+      client:
+        url: http://localhost:8081            
+  application:
+    name: thalet-contact-management
+   
+   
+logging:
+  file:
+    name: thalet-contact-management.log
+    max-history: 20
+    max-size: 20MB
+    
+    
+    
+            
+         
+     
